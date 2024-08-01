@@ -1,0 +1,7 @@
+name: AutoClick
+version: '1.0'
+main: com.github.braresa.autoclick.AutoClick
+commands:
+  autoclick:
+    description: Ativa e desativa o autoclick!
+    usage: /<command>

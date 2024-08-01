@@ -1,0 +1,13 @@
+  # Permissão necessária para ativar e desativar o autoclick.
+  REQUIRED_PERMISSION: "autoclick.toggle"
+
+  # Permissões necessárias para determinar o intervalo de click em ticks.
+  # Substitua o ponto nas permissões com _, exemplo: autoclick.fast se tornará autoclick_fast.
+
+
+  permission_groups:
+    autoclick_fast: 2 # ~10 hits por segundo, 1 hit a cada 2 ticks
+    autoclick_medium: 4 # ~5 hits por segundo, 1 hit a cada 4 ticks
+    autoclick_slow: 20 # ~1 hit por segundo, 1 hit a cada 20 ticks
+    # group_vip: 20
+    # group_mvp: 20
